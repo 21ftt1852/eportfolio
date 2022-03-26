@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Week7-e-P2</title>
+	<style type="text/css">
+		
+		tr{
+			border: none;
+		}
+		td{
+			border: none;
+
+		}
+		table{
+			margin: auto;
+		}
+		div{
+			display: flex; justify-content: center;
+		}
+
+		.first{
+			width: 400px;
+
+		}
+		#second{
+			padding: 10px;
+			box-sizing: border-box;
+			border: none;
+			text-align: center;
+			flex: 100%;
+		}
+
+
+
+		
+	</style>
+</head>
+<body>
+<div>
+<form method="" action="">
+<table>
+<!-- <table border="1" width="450" height="100" cellpadding="5" cellspacing="5"> -->
+<tr>
+	<td id="first">Fullname</td>
+	<td><input type text="name"></td>
+	<tr>
+<tr>
+	<td id="first">Email</td>
+	<td><input type="email"></td>
+	<tr>
+<tr>
+	<td id="first">Date you can start</td>
+	<td><input type="date"></td>
+	<tr>
+<tr>
+	<td id="first">Morning shift preference</td>
+	<td><input type="time"></td>
+	<tr>
+<tr>
+	<td id="first">Evening shift preference</td>
+	<td><input type="time"></td>
+	<tr>
+<tr>
+	<td id="first">How many hours you can work? In multiple of 3</td>
+	<td><form action="/action_page.php">
+		<label for="points">Points:</label>
+		<input type="number" id="points" name="points" step="3" min="3" max="9">
+	</form>
+</td>
+	<tr>
+<tr>
+	<td id="first">Distance you willing to commute to volunteer center?</td>
+	<td><input type="range" min="1" max="15"></td>
+	<tr>
+<tr>
+	<td id="first">Your currency perference for payment?</td>
+	<td><input type="radio" name="currency" id="pounds">
+	<label for="pound">&pound;</label>
+	<input type="radio" name="male" id="yuan">
+	<label for="yen">&yen;</label>
+	<input type="radio" name="male" id="euro">
+	<label for="euro">&euro;</label></td>
+	<tr>
+	</div>
+<tr>
+	<td class="second" colspan="2"><center><textarea id="address" name="address" rows="6" cols="50" placeholder="type your house address"></textarea></center></td>
+	<tr>
+<tr>
+	<td class="second" colspan="2"><strike><center>You will be given daily meals</strike></center></td>
+<tr>
+<tr>
+	<td class="second" colspan="2"><center><input type="checkbox">I agree to all terms and conditions</center></td>
+<tr>
+	<td class="second" colspan="2"><center>Prove you are not robot: 10 < 20? <input tupe="checkbox"></center></td>
+<tr>
+	<td class="second" colspan="2"><center>For more informaton, visit MOH <a href="https://www.moh.gov.bn">website</center></td>
+
+
+</table>
+</form>
+</body>
+</html>
